@@ -17,7 +17,10 @@ import torch
 
 #cat() ---将两个张量的维度 拼接起来
 
-data1 = torch.randint(0,10,[1,2,3])
-data2 = torch.randint(0,10,[1,2,3])
+# data1 = torch.randint(0,10,[1,2,3])
+# data2 = torch.randint(0,10,[1,2,3])
+#
+# print(torch.cat([data1, data2], dim=1).shape)
 
-print(torch.cat([data1, data2], dim=1).shape)
+rand = torch.randn(1,2)
+print(rand)
